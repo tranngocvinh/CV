@@ -1,91 +1,64 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="favicon.ico">
+    
 </head>
-<style>
-    body{
-        background-color: #EAF6F6;
-    }
-
-    hr{
-        
-        border-style:none;
-        border-top-style: dotted;
-        border-width: 3px;
-        border-color: gray;
-        width:6%
-    }
-</style>
 <body>
-    <h1>Tran Ngoc Vinh</h1>
-    <p><em>Student in <strong><a href="https://daihoc.fpt.edu.vn/">FPT university</a></strong></em></p>
-    <p>I am an Frontend Developer. I love coffee and drink juice</p>
-    <hr>
-    <h3>Certificate</h3>
-    <ul>
-      <li>Study skill for univercity success(University of Sydney)</li>
-      <li>Computer Networking </li>
-    </ul>
-    <hr>
-    <h3> My Hobbies</h3>
-    <ol>
-      <li>Beer brewing</li>
-      <li>Digital arts</li>
-      <li>Motorbike</li>
-    </ol>
-    <hr>
-    <h3>Work Experience</h3>
-    <table>
-        <tr>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>Skill</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Communication</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Research</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>Skill</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Communication</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Research</td>
-                        <td>⭐⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <!--This is note-->
-    <form action="mailto:vinhvinh307@gmail.com" enctype="text/plain" method="post">
-        <label for="">Your Name:</label>
-        <input type="text" name="YourName:"><br>
-        
-        <label for="">Password:  </label>
-        <input type="password" name="Password:" id=""><br>
-        <label for="">Your message:</label><br>
-        <textarea name="YourMessage:" id="" cols="30" rows="10"></textarea><br>
-        <input type="submit"><br>
+    <div class="top-container">
+        <img class="top-cloud" src="cloud.png" alt="">
+        <h1>I'm Vinh</h1>
+        <h2>I'm a <span>pro</span>gramer</h2>
+        <img class="bottom-cloud" src="cloud.png" alt="">
+        <img class="mountain" src="mountain.png" alt="">
+    </div>
 
-    </form>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="vinh" width="200px"  src="vinh.png" alt="">
+          <h2>Hello.</h2>
+          <p class="intro">I am web developer. I'm a 2nd student at FPT univerisity Hanoi.I love ❤️juice and travel </p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="code-image" src="computer-modified.png" alt="">
+            <h3>Design & Development</h3>
+            <p>I start learning to code when i'm 17 years old because i want build a game and website.Overtime, i have gain a weath of experience designing and developing mobile and web application</p>
+          </div>
+          <div class="skill-row">
+            <img class="chillies-image" src="chillies.png" alt="">
+            <h3>Hot Wings Challenges</h3>
+            <p>But my best skill is actually in eating hot wings. I am the undisputed queen hot wing Challenges. Ghost Peppers and Carolina Reapers are my favourite snacks.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you love hot wings as much as i do.</h3>
+          <p class="contact-message">Love hot wings as much as i do?Let's talk about how awesome they are!We can code while we eat hot wings.</p>
+          <a class="btn" href="mailto:vinhvinh307@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://www.facebook.com/rescue21092002/">Facebook</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copy-right">© 2022 Name Surname.</p>
+      </div>
+      
 </body>
 </html>
